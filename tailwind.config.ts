@@ -8,6 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'primary': '#34D399',
+        'primary-hover': '#1AC788',
+        'primary-active': '#10B77A',
+        'primary-light': '#ECFCF6',
+        'secondary': '#1F2937',
+        'secondary-hover': '#1B232F',
+        'secondary-active': '#1A212B',
+        'secondary-light': '#EFF2F6',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
